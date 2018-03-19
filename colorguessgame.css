@@ -1,0 +1,74 @@
+body{
+	background-color: #232323;
+	margin: 0;
+}
+
+.square {
+	float: left;
+	width: 30%;
+	background-color: #232323;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 20%;
+	transition: background 1.0s;
+}
+
+#container {
+	max-width: 600px;
+	margin: 20px auto;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	background-color: #56c4ef;
+	margin: 0;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+	font-family: "Kalam";
+}
+
+#stripe {
+	background-color: white;
+	height: 30px;
+	text-align: center;
+}
+
+.selected {
+	background-color: #56c4ef;
+}
+
+#colorDisplay {
+	font-size: 1.5em;
+}
+
+button {
+	border: none;
+	background-color: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 650;
+	color: orange;
+	font-size: inherit;
+	transition: all 0.75s;
+	outline: none;
+	letter-spacing: 1px;
+	font-family: "Merienda";
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	color: red;
+	font-family: "Merienda";
+}
+
+button:hover {
+	background-color: orange;
+	color: white;
+}
+
+.winner {
+	color: green;
+}
